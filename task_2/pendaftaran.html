@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-pendaftaran.css" />
+    <title>pendaftaran</title>
+  </head>
+  <body>
+    <header>
+      <div class="banner-logo">
+        <a href="#"><img src="assets/golf.png" alt="" /></a>
+      </div>
+      <div class="navbar">
+        <a href="#">About</a>
+        <a href="#">Kontak</a>
+        <a href="#">Dokumentasi</a>
+      </div>
+    </header>
+
+    <div class="lembar-form">
+      <form action="informasi-pendaftar.html" method="get">
+        <h2>Formulir Pendaftaran UKM GOLF</h2>
+        <br /><br />
+        <label for="nama">Nama: </label>
+        <input type="text" id="nama" name="nama" /><br /><br />
+
+        <label for="nim">NIM: </label>
+        <input type="text" id="nim" name="nim" /><br /><br />
+
+        <p>Gender ?</p>
+        <input type="radio" id="laki-laki" name="gender" value="laki-laki" />
+        <label for="laki-laki">Laki-Laki</label><br />
+        <input type="radio" id="perempuan" name="gender" value="perempuan" />
+        <label for="perempuan">Perempuan</label><br />
+        <br />
+
+        <label for="kontak">Kontak: </label>
+        <input type="text" id="kontak" name="kontak" /><br /><br />
+
+        <button type="submit" value="Daftar" class="submit-button">Daftar</button>
+      </form>
+    </div>
+  </body>
+</html>
