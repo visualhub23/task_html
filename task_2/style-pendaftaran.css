@@ -1,0 +1,45 @@
+*,body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.lembar-form{
+    background-color: #FFF5E0 ;
+    height: 50vh;
+}
+
+.lembar-form form{
+    padding: 10vh;
+}
+
+.banner-logo{
+    text-align: center;
+    background-color: #C70039;
+    padding: 10px;
+}
+
+.navbar{
+    text-align: center;
+    background-color: #141E46;
+    padding: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 50px 0px 50px; 
+}
+
+.lembar-form{
+    text-align: center;
+}
+
+.submit-button{
+    height: 50px;
+    width: 100px;
+}
+
+.submit-button:hover{
+    opacity: 1;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informasi pendaftar</title>
+</head>
+<body>
+    <script>
+        var queryString = window.location.search;
+        var urlParams = new URLSearchParams(queryString);
+        var nama = urlParams.get('nama');
+        var nim = urlParams.get('nim');
+        var kontak = urlParams.get('kontak');
+        var gender = urlParams.get('gender');
+
+        document.write("Nama: " + nama + "<br>");
+        document.write("NIM: " + nim + "<br>");
+        document.write("Gender: " + gender + "<br>");
+        document.write("Kontak: " + kontak + "<br>");
+    </script>
+</body>
+</html>
